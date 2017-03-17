@@ -1,3 +1,6 @@
+# Created by https://www.gitignore.io/api/objective-c
+
+### Objective-C ###
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -33,8 +36,8 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
-
+Pods/
+Podfile.lock
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
@@ -50,11 +53,19 @@ Carthage/Build
 # https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
 
 fastlane/report.xml
+fastlane/Preview.html
 fastlane/screenshots
+fastlane/test_output
 
-#Code Injection
+# Code Injection
 #
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+### Objective-C Patch ###
+*.xcscmblueprint
+*.xcworkspace
+.DS_Store
+*/.DS_Store
