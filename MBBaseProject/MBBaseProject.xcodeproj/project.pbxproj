@@ -140,7 +140,6 @@
 		A990FE221E69153100B47C49 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A990FE211E69153100B47C49 /* libstdc++.6.0.9.tbd */; };
 		A990FE241E69155800B47C49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A990FE231E69155800B47C49 /* libc++.tbd */; };
 		A9AAAA441E7123E200B6F274 /* NSString+Cutout.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AAAA431E7123E200B6F274 /* NSString+Cutout.m */; };
-		CE800BF7F5E1402AA8D59F61 /* libPods-LKProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F030FBDB595FC667BC526B /* libPods-LKProject.a */; };
 		D079E6091E8397AB002637A4 /* UILabel+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = D079E6081E8397AB002637A4 /* UILabel+Vertical.m */; };
 		D0A3B6851E77EB6700087BD7 /* refreshjoke_loading_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A3B6791E77EB6600087BD7 /* refreshjoke_loading_2@2x.png */; };
 		D0A3B6861E77EB6700087BD7 /* refreshjoke_loading_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A3B67A1E77EB6600087BD7 /* refreshjoke_loading_2@3x.png */; };
@@ -481,7 +480,6 @@
 				8988DB1C1D88FCB200A54871 /* AssetsLibrary.framework in Frameworks */,
 				8988DB1A1D88FCA800A54871 /* QuartzCore.framework in Frameworks */,
 				891A121A1D88034800A2319F /* libsqlite3.0.tbd in Frameworks */,
-				CE800BF7F5E1402AA8D59F61 /* libPods-LKProject.a in Frameworks */,
 				4F9EF3FF5C682F0ADD639799 /* libPods-MBBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
