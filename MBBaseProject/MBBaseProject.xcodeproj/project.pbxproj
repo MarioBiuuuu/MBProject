@@ -11,6 +11,7 @@
 		312EC3C51E66663D002C6808 /* LKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3C41E66663D002C6808 /* LKAlertView.m */; };
 		312EC3CB1E6697B3002C6808 /* NSString+LKEncry.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3CA1E6697B3002C6808 /* NSString+LKEncry.m */; };
 		31BD50031E5FC6E800D81A4F /* ApiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BD50021E5FC6E800D81A4F /* ApiUtil.m */; };
+		4F9EF3FF5C682F0ADD639799 /* libPods-MBBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6220325461E534E24DC3C36B /* libPods-MBBaseProject.a */; };
 		8514016C1E72590800E2439A /* YuriAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514016B1E72590800E2439A /* YuriAlertView.m */; };
 		851401771E725C3500E2439A /* scanBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 851401711E725C3500E2439A /* scanBox.png */; };
 		851401781E725C3500E2439A /* scanBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 851401721E725C3500E2439A /* scanBox@2x.png */; };
@@ -23,6 +24,8 @@
 		85A6F4AB1E654835003E10A5 /* SplittingTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A6F4A91E654835003E10A5 /* SplittingTriangle.m */; };
 		8913A59F1E862E250054028A /* MBCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A59E1E862E250054028A /* MBCommonTools.m */; };
 		8913A5A11E86319D0054028A /* MBBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A01E86319D0054028A /* MBBaseProjectUITests.m */; };
+		8913A5A71E86333D0054028A /* MBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A41E86333D0054028A /* MBTabBar.m */; };
+		8913A5A81E86333D0054028A /* MBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A61E86333D0054028A /* MBTabBarViewController.m */; };
 		891A11C31D88025F00A2319F /* MBCommonLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A119A1D88025F00A2319F /* MBCommonLoadingAnimationView.m */; };
 		891A11C41D88025F00A2319F /* MBCommonNoNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A119C1D88025F00A2319F /* MBCommonNoNetworkingView.m */; };
 		891A11FB1D88027D00A2319F /* NSData+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A11EA1D88027D00A2319F /* NSData+MBDBHandle.m */; };
@@ -187,6 +190,7 @@
 		31BD50011E5FC6E800D81A4F /* ApiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiUtil.h; sourceTree = "<group>"; };
 		31BD50021E5FC6E800D81A4F /* ApiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiUtil.m; sourceTree = "<group>"; };
 		5A303E08A7414A076A73B52E /* Pods-LKProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKProject/Pods-LKProject.release.xcconfig"; sourceTree = "<group>"; };
+		6220325461E534E24DC3C36B /* libPods-MBBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514016A1E72590800E2439A /* YuriAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuriAlertView.h; sourceTree = "<group>"; };
 		8514016B1E72590800E2439A /* YuriAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuriAlertView.m; sourceTree = "<group>"; };
 		851401711E725C3500E2439A /* scanBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanBox.png; sourceTree = "<group>"; };
@@ -207,6 +211,10 @@
 		8913A59D1E862E250054028A /* MBCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCommonTools.h; sourceTree = "<group>"; };
 		8913A59E1E862E250054028A /* MBCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCommonTools.m; sourceTree = "<group>"; };
 		8913A5A01E86319D0054028A /* MBBaseProjectUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBaseProjectUITests.m; sourceTree = "<group>"; };
+		8913A5A31E86333D0054028A /* MBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBar.h; sourceTree = "<group>"; };
+		8913A5A41E86333D0054028A /* MBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBar.m; sourceTree = "<group>"; };
+		8913A5A51E86333D0054028A /* MBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarViewController.h; sourceTree = "<group>"; };
+		8913A5A61E86333D0054028A /* MBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarViewController.m; sourceTree = "<group>"; };
 		891A11991D88025F00A2319F /* MBCommonLoadingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCommonLoadingAnimationView.h; sourceTree = "<group>"; };
 		891A119A1D88025F00A2319F /* MBCommonLoadingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCommonLoadingAnimationView.m; sourceTree = "<group>"; };
 		891A119B1D88025F00A2319F /* MBCommonNoNetworkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCommonNoNetworkingView.h; sourceTree = "<group>"; };
@@ -404,6 +412,8 @@
 		89EAF4F31E811AFF008E42D3 /* UIButton+RightImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RightImage.m"; sourceTree = "<group>"; };
 		89EAF4FD1E8120A3008E42D3 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
 		89EAF4FE1E8120A3008E42D3 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+		903416855C62DDCD03881DBA /* Pods-MBBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBBaseProject/Pods-MBBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A0BC5164FD363646FA10303F /* Pods-MBBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBBaseProject/Pods-MBBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		A990FE171E6914D200B47C49 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A990FE191E6914E300B47C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A990FE1B1E6914F600B47C49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -472,6 +482,7 @@
 				8988DB1A1D88FCA800A54871 /* QuartzCore.framework in Frameworks */,
 				891A121A1D88034800A2319F /* libsqlite3.0.tbd in Frameworks */,
 				CE800BF7F5E1402AA8D59F61 /* libPods-LKProject.a in Frameworks */,
+				4F9EF3FF5C682F0ADD639799 /* libPods-MBBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +508,8 @@
 			children = (
 				C257467624FE2C1323E995C3 /* Pods-LKProject.debug.xcconfig */,
 				5A303E08A7414A076A73B52E /* Pods-LKProject.release.xcconfig */,
+				903416855C62DDCD03881DBA /* Pods-MBBaseProject.debug.xcconfig */,
+				A0BC5164FD363646FA10303F /* Pods-MBBaseProject.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -545,6 +558,7 @@
 				A990FE191E6914E300B47C49 /* CoreLocation.framework */,
 				A990FE171E6914D200B47C49 /* CoreTelephony.framework */,
 				85F030FBDB595FC667BC526B /* libPods-LKProject.a */,
+				6220325461E534E24DC3C36B /* libPods-MBBaseProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -602,6 +616,17 @@
 				8913A59E1E862E250054028A /* MBCommonTools.m */,
 			);
 			path = MBCommonTool;
+			sourceTree = "<group>";
+		};
+		8913A5A21E86333D0054028A /* MBTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8913A5A31E86333D0054028A /* MBTabBar.h */,
+				8913A5A41E86333D0054028A /* MBTabBar.m */,
+				8913A5A51E86333D0054028A /* MBTabBarViewController.h */,
+				8913A5A61E86333D0054028A /* MBTabBarViewController.m */,
+			);
+			path = MBTabBarViewController;
 			sourceTree = "<group>";
 		};
 		891A11981D88025F00A2319F /* CommonView */ = {
@@ -1251,6 +1276,7 @@
 		DA724B641D76A6810049A347 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8913A5A21E86333D0054028A /* MBTabBarViewController */,
 				8988D9ED1D88DFE700A54871 /* BaseModel */,
 				8988D9F21D88DFE700A54871 /* BaseTableViewController */,
 				DA724B651D76A6810049A347 /* BaseViewController */,
@@ -1600,7 +1626,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKProject/Pods-LKProject-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBBaseProject/Pods-MBBaseProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5F6B4AC03DD319564AF2620 /* [CP] Embed Pods Frameworks */ = {
@@ -1615,7 +1641,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKProject/Pods-LKProject-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBBaseProject/Pods-MBBaseProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D6C2DB92723FCECBB7B34CA4 /* [CP] Check Pods Manifest.lock */ = {
@@ -1682,6 +1708,7 @@
 				891A11FC1D88027D00A2319F /* NSDate+MBDBHandle.m in Sources */,
 				8988DACB1D88EBC600A54871 /* UIViewController+Addition.m in Sources */,
 				8988DA0B1D88DFE700A54871 /* MBBaseTableViewCell.m in Sources */,
+				8913A5A71E86333D0054028A /* MBTabBar.m in Sources */,
 				8988DA111D88DFE700A54871 /* MBRefreshUtil.m in Sources */,
 				8988DA491D88E04A00A54871 /* MJRefreshHeader.m in Sources */,
 				312EC3C51E66663D002C6808 /* LKAlertView.m in Sources */,
@@ -1739,6 +1766,7 @@
 				8988DA0E1D88DFE700A54871 /* MBBaseTableViewController.m in Sources */,
 				8988DA461D88E04A00A54871 /* MJRefreshBackFooter.m in Sources */,
 				8988DAB61D88EBC600A54871 /* NSAttributedString+Size.m in Sources */,
+				8913A5A81E86333D0054028A /* MBTabBarViewController.m in Sources */,
 				8988DA571D88E04A00A54871 /* UIScrollView+MJRefresh.m in Sources */,
 				891A12001D88027D00A2319F /* MBDBObject.m in Sources */,
 				8988DABF1D88EBC600A54871 /* UIImage+Addition.m in Sources */,
@@ -1900,7 +1928,7 @@
 		};
 		DAD571781D73CFC00066CE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C257467624FE2C1323E995C3 /* Pods-LKProject.debug.xcconfig */;
+			baseConfigurationReference = 903416855C62DDCD03881DBA /* Pods-MBBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1931,7 +1959,7 @@
 		};
 		DAD571791D73CFC00066CE23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A303E08A7414A076A73B52E /* Pods-LKProject.release.xcconfig */;
+			baseConfigurationReference = A0BC5164FD363646FA10303F /* Pods-MBBaseProject.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
