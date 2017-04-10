@@ -29,4 +29,29 @@
 }
 
 YYModelSynthCoderAndHash
+
++ (void)fetchDataComplate:(void (^)(BOOL finished, NSDictionary *jsonObject, id resultModel, NSError *error))handler {
+    [ApiUtil sendModelRequestWithUrl:[self requestUrl] arguments:[self arguments] requestMethod:[self requestMethod] MD5Encryption:[self MD5Encryption] success:^(NSDictionary *jsonObject) {
+        id model = [[self class] yy_modelWithDictionary:jsonObject];
+        handler(YES, jsonObject, model, nil);
+    } failed:^(NSError *error) {
+        handler(NO, nil, nil, error);
+    }];
+}
+
++ (ApiRequestMethod)requestMethod {
+    return ApiRequestMethodGET;
+}
+
++ (NSString *)requestUrl {
+    return @"";
+}
+
++ (NSDictionary *)arguments {
+    return nil;
+}
+
++ (BOOL)MD5Encryption {
+    return NO;
+}
 @end

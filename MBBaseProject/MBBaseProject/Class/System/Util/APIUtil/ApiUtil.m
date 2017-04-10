@@ -12,11 +12,6 @@
 
 #define kTimeOutInterval 30
 
-
-typedef NS_ENUM(NSInteger, ApiRequestMethod) {
-    ApiRequestMethodGET = 0,
-    ApiRequestMethodPOST,
-};
 typedef void (^ApiSuccessBack) (NSDictionary *jsonObject);
 typedef void (^ApifailedErrorBack) (NSError *error);
 @interface ApiRequestFunc : NSObject
@@ -158,4 +153,7 @@ const char *kUPLOADMANAGERS;
     [ApiRequestFunc cancelAllUploadTask];
 }
 
++ (void)sendModelRequestWithUrl:(NSString *)url arguments:(NSDictionary *)arguments requestMethod:(ApiRequestMethod)requestMethod MD5Encryption:(BOOL)MD5Encryption success:(void (^)(NSDictionary *jsonObject))response failed:(void (^)(NSError *error))error {
+    [ApiRequestFunc sendApiRequestWithArguments:arguments requestURL:url requestMethod:requestMethod MD5Encryption:MD5Encryption successBack:response errorBack:error];
+}
 @end
