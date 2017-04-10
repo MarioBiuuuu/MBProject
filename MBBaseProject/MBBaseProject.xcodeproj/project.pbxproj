@@ -37,6 +37,8 @@
 		893E2FA71E9B7A2900439320 /* MBDBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F9D1E9B7A2900439320 /* MBDBObject.m */; };
 		893E2FA81E9B7A2900439320 /* MBDBQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F9F1E9B7A2900439320 /* MBDBQueue.m */; };
 		893E2FA91E9B7A2900439320 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FA11E9B7A2900439320 /* README.md */; };
+		893E2FAE1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FAD1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m */; };
+		893E2FB11E9B7C8F00439320 /* MBWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FB01E9B7C8F00439320 /* MBWaterFlowLayout.m */; };
 		895FB3961E6FE4C10021672E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB3951E6FE4C10021672E /* CFNetwork.framework */; };
 		895FB3981E6FE4DE0021672E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB3971E6FE4DE0021672E /* CoreGraphics.framework */; };
 		895FB39A1E6FE4E60021672E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB3991E6FE4E60021672E /* Foundation.framework */; };
@@ -238,6 +240,10 @@
 		893E2F9F1E9B7A2900439320 /* MBDBQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDBQueue.m; sourceTree = "<group>"; };
 		893E2FA01E9B7A2900439320 /* MBDBVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDBVersion.h; sourceTree = "<group>"; };
 		893E2FA11E9B7A2900439320 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		893E2FAC1E9B7BEC00439320 /* MBCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		893E2FAD1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		893E2FAF1E9B7C8F00439320 /* MBWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWaterFlowLayout.h; sourceTree = "<group>"; };
+		893E2FB01E9B7C8F00439320 /* MBWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWaterFlowLayout.m; sourceTree = "<group>"; };
 		895FB3951E6FE4C10021672E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		895FB3971E6FE4DE0021672E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		895FB3991E6FE4E60021672E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -714,6 +720,17 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		893E2FAB1E9B7BA900439320 /* BaseCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				893E2FAC1E9B7BEC00439320 /* MBCollectionViewFlowLayout.h */,
+				893E2FAD1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m */,
+				893E2FAF1E9B7C8F00439320 /* MBWaterFlowLayout.h */,
+				893E2FB01E9B7C8F00439320 /* MBWaterFlowLayout.m */,
+			);
+			path = BaseCollectionView;
+			sourceTree = "<group>";
+		};
 		89788EF61D912DBF00EEC433 /* SRActionSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,10 +789,10 @@
 		8988D9F21D88DFE700A54871 /* BaseTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				89EAF4E81E8109BB008E42D3 /* Object */,
-				8988D9F31D88DFE700A54871 /* BaseView */,
 				8988D9FF1D88DFE700A54871 /* MBBaseTableViewController.h */,
 				8988DA001D88DFE700A54871 /* MBBaseTableViewController.m */,
+				89EAF4E81E8109BB008E42D3 /* Object */,
+				8988D9F31D88DFE700A54871 /* BaseView */,
 				8988DA011D88DFE700A54871 /* Resource */,
 				8988DA041D88DFE700A54871 /* Util */,
 			);
@@ -1281,6 +1298,7 @@
 				8988D9ED1D88DFE700A54871 /* BaseModel */,
 				8988D9F21D88DFE700A54871 /* BaseTableViewController */,
 				DA724B651D76A6810049A347 /* BaseViewController */,
+				893E2FAB1E9B7BA900439320 /* BaseCollectionView */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1288,11 +1306,11 @@
 		DA724B651D76A6810049A347 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DA724B661D76A6810049A347 /* MBBaseViewController.h */,
+				DA724B671D76A6810049A347 /* MBBaseViewController.m */,
 				85A6F4A51E654835003E10A5 /* essence */,
 				891A11981D88025F00A2319F /* CommonView */,
 				891A119D1D88025F00A2319F /* RefreshImageResouce */,
-				DA724B661D76A6810049A347 /* MBBaseViewController.h */,
-				DA724B671D76A6810049A347 /* MBBaseViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -1723,6 +1741,7 @@
 				893E2FA91E9B7A2900439320 /* README.md in Sources */,
 				8988DACA1D88EBC600A54871 /* UIView+Tap.m in Sources */,
 				8988DAAC1D88EBC600A54871 /* NSNotificationCenter+Addition.m in Sources */,
+				893E2FAE1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m in Sources */,
 				89CEAFB51E6675EF00575C03 /* UITextView+Placeholder.m in Sources */,
 				89788F051D9130F600EEC433 /* FAImageView.m in Sources */,
 				8988DAAF1D88EBC600A54871 /* NSDictionary+Addition.m in Sources */,
@@ -1781,6 +1800,7 @@
 				DAD5714F1D73CFC00066CE23 /* main.m in Sources */,
 				8991ABA81E669FAF00F31363 /* ViewIBDesignableExtison.swift in Sources */,
 				89788F081D9130F600EEC433 /* UIFont+FontAwesome.m in Sources */,
+				893E2FB11E9B7C8F00439320 /* MBWaterFlowLayout.m in Sources */,
 				8988DADB1D88F51200A54871 /* LKCustomPlaceHolderTextView.m in Sources */,
 				8988DAB01D88EBC600A54871 /* NSFileManager+Paths.m in Sources */,
 			);
