@@ -286,13 +286,13 @@ typedef NS_ENUM(NSUInteger, MBBaseTableViewType) {
 - (UIEdgeInsets)MB_sepEdgeInsetsAtIndexPath:(NSIndexPath *)indexPath;
 
 /**
- *  自定义侧滑操作
+ *  自定义侧滑删除标题
  *
  *  @param indexPath <#indexPath description#>
  *
  *  @return <#return value description#>
  */
--(NSArray<UITableViewRowAction *> *)MB_editActionsForRowAtIndexPath:(NSIndexPath *)indexPath;
+-(NSString *)MB_titleForDeleteAtIndexPath:(NSIndexPath *)indexPath;
 
 /**
  *  自定义侧滑操作开关
@@ -302,6 +302,16 @@ typedef NS_ENUM(NSUInteger, MBBaseTableViewType) {
  *  @return <#return value description#>
  */
 - (BOOL)MB_canEditActionForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+/**
+ *  侧滑点击响应时间
+ *
+ *  @param style
+ *  @param indexPath
+ *
+ *  @return
+ */
+- (void)MB_commitEditActionWithStyle:(UITableViewCellEditingStyle)style atIndexPath:(NSIndexPath *)indexPath;
 
 /**
  *  cell即将显示

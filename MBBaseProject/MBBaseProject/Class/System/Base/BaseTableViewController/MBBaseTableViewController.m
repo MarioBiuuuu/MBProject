@@ -481,13 +481,24 @@
     return 0;
 }
 
-- (NSArray<UITableViewRowAction *> *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    return [self MB_editActionsForRowAtIndexPath:indexPath];
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    if ([self respondsToSelector:@selector(MB_canEditActionForRowAtIndexPath:)]) {
+        return [self MB_canEditActionForRowAtIndexPath:indexPath];
+    }
+    return NO;
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [self MB_canEditActionForRowAtIndexPath:indexPath];
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if ([self respondsToSelector:@selector(MB_commitEditActionWithStyle:atIndexPath:)]) {
+        [self MB_commitEditActionWithStyle:editingStyle atIndexPath:indexPath];
+    }
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if ([self respondsToSelector:@selector(MB_titleForDeleteAtIndexPath:)]) {
+        return [self MB_titleForDeleteAtIndexPath:indexPath];
+    }
+    return @"删除";
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -551,6 +562,14 @@
 
 - (BOOL)MB_canEditActionForRowAtIndexPath:(NSIndexPath *)indexPath {
     return NO;
+}
+
+-(NSString *)MB_titleForDeleteAtIndexPath:(NSIndexPath *)indexPath {
+    return @"删除";
+}
+
+- (void)MB_commitEditActionWithStyle:(UITableViewCellEditingStyle)style atIndexPath:(NSIndexPath *)indexPath {
+    
 }
 
 - (void)MB_cellWillDisplay:(MBBaseTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {

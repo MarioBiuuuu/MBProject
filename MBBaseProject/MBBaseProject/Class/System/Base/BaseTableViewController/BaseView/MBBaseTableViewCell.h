@@ -10,12 +10,6 @@
 #import "MBSwipCellMenuItem.h"
 
 @interface MBBaseTableViewCell : UITableViewCell
-
-@property (nonatomic, assign) BOOL autoClose;
-
-- (void)closeLeftSwipe; //关闭左滑
-
-- (void)addMenuItems:(NSArray <MBSwipCellMenuItem *>*)items;
 /**
  *  返回持有该cell的tableview
  */
