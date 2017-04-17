@@ -7,7 +7,6 @@
 //
 
 #import "MBBaseTableViewCell.h"
-#import "UIButton+SwipMenuItem.h"
 
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
@@ -26,8 +25,6 @@
 @property (nonatomic, assign) BOOL isOpenLeft; //是否已经打开左滑动
 
 @property (nonatomic, weak) UIPanGestureRecognizer *rightPanGesture; //向右清扫手势
-
-@property (nonatomic, strong) NSMutableArray<MBSwipCellMenuItem *> *menuArrM;
 
 @property (nonatomic, strong) NSMutableArray<UIButton *> *menuButtons;
 

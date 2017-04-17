@@ -23,16 +23,20 @@
 //const char MBBaseTableVcNavLeftItemHandleKey;
 
 @interface MBBaseTableViewController ()
+
 @property (nonatomic, copy) MBTableVcCellSelectedHandle handle;
 @property (nonatomic, weak) UIImageView *refreshImg;
+
 @end
 
 @implementation MBBaseTableViewController
+
 @synthesize needCellSepLine = _needCellSepLine;
 @synthesize sepLineColor = _sepLineColor;
 
 @synthesize hiddenStatusBar = _hiddenStatusBar;
 @synthesize barStyle = _barStyle;
+
 - (NSMutableArray *)dataArray {
     if (!_dataArray) {
         _dataArray = [NSMutableArray new];
@@ -58,10 +62,7 @@
         tab.delegate = self;
         tab.backgroundColor = [UIColor colorWithWhite:0.940 alpha:1.000];
         tab.separatorColor = kSeperatorColor;
-        //        WeakSelf(weakSelf);
-        //        [tab emptyTableViewTapHandler:^(UIScrollView *scroollView, UIView *tapView) {
-        //            [weakSelf loadData];
-        //        }];
+       
     }
     return _tableView;
 }

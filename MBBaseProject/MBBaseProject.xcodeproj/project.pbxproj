@@ -29,6 +29,7 @@
 		891A11C31D88025F00A2319F /* MBCommonLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A119A1D88025F00A2319F /* MBCommonLoadingAnimationView.m */; };
 		891A11C41D88025F00A2319F /* MBCommonNoNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A119C1D88025F00A2319F /* MBCommonNoNetworkingView.m */; };
 		891A121A1D88034800A2319F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891A12191D88034800A2319F /* libsqlite3.0.tbd */; };
+		8928A3C51EA4A255003E1012 /* MBDBKit_README in Resources */ = {isa = PBXBuildFile; fileRef = 8928A3C41EA4A255003E1012 /* MBDBKit_README */; };
 		893E2FA21E9B7A2900439320 /* NSData+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */; };
 		893E2FA31E9B7A2900439320 /* NSDate+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F931E9B7A2900439320 /* NSDate+MBDBHandle.m */; };
 		893E2FA41E9B7A2900439320 /* NSObject+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F951E9B7A2900439320 /* NSObject+MBDBHandle.m */; };
@@ -36,7 +37,6 @@
 		893E2FA61E9B7A2900439320 /* MBDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F9A1E9B7A2900439320 /* MBDB.m */; };
 		893E2FA71E9B7A2900439320 /* MBDBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F9D1E9B7A2900439320 /* MBDBObject.m */; };
 		893E2FA81E9B7A2900439320 /* MBDBQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F9F1E9B7A2900439320 /* MBDBQueue.m */; };
-		893E2FA91E9B7A2900439320 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FA11E9B7A2900439320 /* README.md */; };
 		893E2FAE1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FAD1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m */; };
 		893E2FB11E9B7C8F00439320 /* MBWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2FB01E9B7C8F00439320 /* MBWaterFlowLayout.m */; };
 		895FB3961E6FE4C10021672E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB3951E6FE4C10021672E /* CFNetwork.framework */; };
@@ -130,8 +130,6 @@
 		89CD19C31E657892005E7FA0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD19BD1E657892005E7FA0 /* HomeViewController.m */; };
 		89CD52FF1E7668A70008A86A /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD52FE1E7668A70008A86A /* CKAlertViewController.m */; };
 		89CEAFB51E6675EF00575C03 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CEAFB41E6675EF00575C03 /* UITextView+Placeholder.m */; };
-		89EAF4ED1E8109D4008E42D3 /* MBSwipCellMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF4EA1E8109D4008E42D3 /* MBSwipCellMenuItem.m */; };
-		89EAF4EE1E8109D4008E42D3 /* UIButton+SwipMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF4EC1E8109D4008E42D3 /* UIButton+SwipMenuItem.m */; };
 		89EAF4F41E811AFF008E42D3 /* UIButton+CenterImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF4F11E811AFF008E42D3 /* UIButton+CenterImageAndTitle.m */; };
 		89EAF4F51E811AFF008E42D3 /* UIButton+RightImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF4F31E811AFF008E42D3 /* UIButton+RightImage.m */; };
 		89EAF4FF1E8120A3008E42D3 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF4FE1E8120A3008E42D3 /* UIButton+Delay.m */; };
@@ -223,6 +221,7 @@
 		891A119C1D88025F00A2319F /* MBCommonNoNetworkingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCommonNoNetworkingView.m; sourceTree = "<group>"; };
 		891A12191D88034800A2319F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		891FF7031E6FA02200AD3FC3 /* MBTipMessageDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBTipMessageDefine.h; sourceTree = "<group>"; };
+		8928A3C41EA4A255003E1012 /* MBDBKit_README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBDBKit_README; sourceTree = "<group>"; };
 		893E2F901E9B7A2900439320 /* NSData+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MBDBHandle.h"; sourceTree = "<group>"; };
 		893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MBDBHandle.m"; sourceTree = "<group>"; };
 		893E2F921E9B7A2900439320 /* NSDate+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MBDBHandle.h"; sourceTree = "<group>"; };
@@ -239,7 +238,6 @@
 		893E2F9E1E9B7A2900439320 /* MBDBQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDBQueue.h; sourceTree = "<group>"; };
 		893E2F9F1E9B7A2900439320 /* MBDBQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDBQueue.m; sourceTree = "<group>"; };
 		893E2FA01E9B7A2900439320 /* MBDBVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDBVersion.h; sourceTree = "<group>"; };
-		893E2FA11E9B7A2900439320 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		893E2FAC1E9B7BEC00439320 /* MBCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		893E2FAD1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		893E2FAF1E9B7C8F00439320 /* MBWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWaterFlowLayout.h; sourceTree = "<group>"; };
@@ -409,10 +407,6 @@
 		89CD52FE1E7668A70008A86A /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
 		89CEAFB31E6675EF00575C03 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		89CEAFB41E6675EF00575C03 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
-		89EAF4E91E8109D4008E42D3 /* MBSwipCellMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSwipCellMenuItem.h; sourceTree = "<group>"; };
-		89EAF4EA1E8109D4008E42D3 /* MBSwipCellMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSwipCellMenuItem.m; sourceTree = "<group>"; };
-		89EAF4EB1E8109D4008E42D3 /* UIButton+SwipMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SwipMenuItem.h"; sourceTree = "<group>"; };
-		89EAF4EC1E8109D4008E42D3 /* UIButton+SwipMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SwipMenuItem.m"; sourceTree = "<group>"; };
 		89EAF4F01E811AFF008E42D3 /* UIButton+CenterImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CenterImageAndTitle.h"; sourceTree = "<group>"; };
 		89EAF4F11E811AFF008E42D3 /* UIButton+CenterImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CenterImageAndTitle.m"; sourceTree = "<group>"; };
 		89EAF4F21E811AFF008E42D3 /* UIButton+RightImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RightImage.h"; sourceTree = "<group>"; };
@@ -428,7 +422,6 @@
 		A990FE1F1E69151300B47C49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A990FE211E69153100B47C49 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		A990FE231E69155800B47C49 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		A990FE271E6916FA00B47C49 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = LKProject/lib/MapKitSDK/MAMapKit.framework/AMap.bundle; sourceTree = SOURCE_ROOT; };
 		A9AAAA421E7123E200B6F274 /* NSString+Cutout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Cutout.h"; sourceTree = "<group>"; };
 		A9AAAA431E7123E200B6F274 /* NSString+Cutout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cutout.m"; sourceTree = "<group>"; };
 		C257467624FE2C1323E995C3 /* Pods-LKProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKProject/Pods-LKProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -685,7 +678,7 @@
 			children = (
 				893E2F8F1E9B7A2900439320 /* Category */,
 				893E2F981E9B7A2900439320 /* Classes */,
-				893E2FA11E9B7A2900439320 /* README.md */,
+				8928A3C41EA4A255003E1012 /* MBDBKit_README */,
 			);
 			path = MBDBKit;
 			sourceTree = "<group>";
@@ -791,7 +784,6 @@
 			children = (
 				8988D9FF1D88DFE700A54871 /* MBBaseTableViewController.h */,
 				8988DA001D88DFE700A54871 /* MBBaseTableViewController.m */,
-				89EAF4E81E8109BB008E42D3 /* Object */,
 				8988D9F31D88DFE700A54871 /* BaseView */,
 				8988DA011D88DFE700A54871 /* Resource */,
 				8988DA041D88DFE700A54871 /* Util */,
@@ -1220,17 +1212,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		89EAF4E81E8109BB008E42D3 /* Object */ = {
-			isa = PBXGroup;
-			children = (
-				89EAF4E91E8109D4008E42D3 /* MBSwipCellMenuItem.h */,
-				89EAF4EA1E8109D4008E42D3 /* MBSwipCellMenuItem.m */,
-				89EAF4EB1E8109D4008E42D3 /* UIButton+SwipMenuItem.h */,
-				89EAF4EC1E8109D4008E42D3 /* UIButton+SwipMenuItem.m */,
-			);
-			path = Object;
-			sourceTree = "<group>";
-		};
 		89EAF4EF1E811AFF008E42D3 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1374,7 +1355,6 @@
 		DA724B791D76A6810049A347 /* File */ = {
 			isa = PBXGroup;
 			children = (
-				A990FE271E6916FA00B47C49 /* AMap.bundle */,
 			);
 			path = File;
 			sourceTree = "<group>";
@@ -1593,6 +1573,7 @@
 				8514017A1E725C3500E2439A /* scanLine.png in Resources */,
 				D0A3B68B1E77EB6700087BD7 /* refreshjoke_loading_5@2x.png in Resources */,
 				D0A3B68D1E77EB6700087BD7 /* refreshjoke_loading_6@2x.png in Resources */,
+				8928A3C51EA4A255003E1012 /* MBDBKit_README in Resources */,
 				D0A3B68E1E77EB6700087BD7 /* refreshjoke_loading_6@3x.png in Resources */,
 				851401781E725C3500E2439A /* scanBox@2x.png in Resources */,
 				D0A3B6891E77EB6700087BD7 /* refreshjoke_loading_4@2x.png in Resources */,
@@ -1711,7 +1692,6 @@
 				893E2FA81E9B7A2900439320 /* MBDBQueue.m in Sources */,
 				893E2FA61E9B7A2900439320 /* MBDB.m in Sources */,
 				8988DA4D1D88E04A00A54871 /* MJRefreshBackGifFooter.m in Sources */,
-				89EAF4ED1E8109D4008E42D3 /* MBSwipCellMenuItem.m in Sources */,
 				893E2FA71E9B7A2900439320 /* MBDBObject.m in Sources */,
 				8988DA541D88E04A00A54871 /* MJRefreshConst.m in Sources */,
 				8988DAAE1D88EBC600A54871 /* NSDate+Addition.m in Sources */,
@@ -1738,7 +1718,6 @@
 				8988DAC71D88EBC600A54871 /* UILabel+Addition.m in Sources */,
 				85A6F4AB1E654835003E10A5 /* SplittingTriangle.m in Sources */,
 				8988DA481D88E04A00A54871 /* MJRefreshFooter.m in Sources */,
-				893E2FA91E9B7A2900439320 /* README.md in Sources */,
 				8988DACA1D88EBC600A54871 /* UIView+Tap.m in Sources */,
 				8988DAAC1D88EBC600A54871 /* NSNotificationCenter+Addition.m in Sources */,
 				893E2FAE1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m in Sources */,
@@ -1794,7 +1773,6 @@
 				8988DABA1D88EBC600A54871 /* NSString+Size.m in Sources */,
 				8988DA471D88E04A00A54871 /* MJRefreshComponent.m in Sources */,
 				8988DA4C1D88E04A00A54871 /* MJRefreshAutoStateFooter.m in Sources */,
-				89EAF4EE1E8109D4008E42D3 /* UIButton+SwipMenuItem.m in Sources */,
 				8988DAB51D88EBC600A54871 /* NSObject+Runtime.m in Sources */,
 				DA724B7E1D76A6810049A347 /* MBBaseViewController.m in Sources */,
 				DAD5714F1D73CFC00066CE23 /* main.m in Sources */,

@@ -7,7 +7,6 @@
 //
 
 #import "HomeViewController.h"
-
 @interface HomeViewController () {
 }
 
@@ -19,7 +18,7 @@
 }
 
 - (void)viewDidLoad {
-    
+
 }
 
 @end

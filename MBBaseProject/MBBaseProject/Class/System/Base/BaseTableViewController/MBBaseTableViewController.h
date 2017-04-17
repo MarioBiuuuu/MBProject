@@ -162,6 +162,22 @@ typedef NS_ENUM(NSUInteger, MBBaseTableViewType) {
 - (void)MB_noticeNoMoreData;
 
 /**
+ *  刷新方法
+ */
+- (void)MB_refresh;
+
+/**
+ *  上拉加载方法
+ */
+- (void)MB_loadMore;
+
+- (void)endRefreshIconAnimation;
+
+@property (nonatomic, assign) BOOL showRefreshIcon;
+
+@property (nonatomic, weak, readonly) UIView *refreshHeader;
+
+/**
  *  是否在下拉刷新
  */
 @property (nonatomic, assign, readonly) BOOL isHeaderRefreshing;
@@ -320,22 +336,5 @@ typedef NS_ENUM(NSUInteger, MBBaseTableViewType) {
  *  @param indexPath <#indexPath description#>
  */
 - (void)MB_cellWillDisplay:(MBBaseTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
-#pragma mark - 子类去继承
-/**
- *  刷新方法
- */
-- (void)MB_refresh;
-
-/**
- *  上拉加载方法
- */
-- (void)MB_loadMore;
-
-@property (nonatomic, assign) BOOL showRefreshIcon;
-
-- (void)endRefreshIconAnimation;
-
-@property (nonatomic, weak, readonly) UIView *refreshHeader;
-
 
 @end

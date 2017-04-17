@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MBSwipCellMenuItem.h"
 
 @interface MBBaseTableViewCell : UITableViewCell
 /**
