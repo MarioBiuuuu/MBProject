@@ -11,7 +11,6 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "MBCommonLoadingAnimationView.h"
 #import "MBCommonNoNetworkingView.h"
-#import "MBBaseDefine.h"
 #import <objc/runtime.h>
 
 /** 当前纬度*/
@@ -259,8 +258,6 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
 }
 
 - (BOOL)navigationShouldPopOnBackButton {
-    DEF_HidenSystemNetworkActivityIndicator;
-    DEF_HiddenMBHUD;
     return YES;//返回NO 不会执行
 }
 
