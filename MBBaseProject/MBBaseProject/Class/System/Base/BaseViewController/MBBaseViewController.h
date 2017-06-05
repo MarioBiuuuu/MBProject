@@ -9,17 +9,52 @@
 #import <UIKit/UIKit.h>
 #import "UIViewController+BackButtonHandler.h"
 #import "UINavigationController_ShouldPopOnBackButton.h"
+#import "MBBaseConfigure.h"
 
 typedef void(^MBBaseViewControllerHandle)();
 
 @interface MBBaseViewController : UIViewController
+#pragma mark - property
+/** 基类基础属性设置 */
+@property (nonatomic, strong) MBBaseConfigure *baseConfigure;
 
+/**
+ *  设置无网络占位图
+ */
+@property (nonatomic, assign) BOOL isNetworkReachable;
+
+/**
+ *  隐藏导航栏底部线条阴影开关
+ */
+@property (nonatomic, assign) BOOL hiddenNavigationBarShadowImageView;
+
+
+/**
+ *  导航右边Item
+ */
+//@property (nonatomic, strong) UIBarButtonItem *navRightItem;
+@property (nonatomic, strong) UIBarButtonItem *navRightItem;
+/**
+ *  导航左边Item
+ */
+//@property (nonatomic, strong) UIBarButtonItem *navLeftItem;
+@property (nonatomic, strong) UIBarButtonItem *navLeftItem;
+
+/**
+ *  标题
+ */
+@property (nonatomic, copy) NSString *navItemTitle;
+
+/**
+ *  自动隐藏导航栏, 实现过度效果
+ */
+@property (nonatomic, assign) BOOL autoHiddenNavigationBar;
+
+#pragma mark - function
 /**
  *  防止Cell多次点击造成多次跳转
  */
 - (void)singlePush;
-
-- (void)PopGoBack;
 
 /**
  *  构造返回
@@ -92,16 +127,6 @@ typedef void(^MBBaseViewControllerHandle)();
 - (void)addChildVc:(UIViewController *)childVc;
 
 /**
- *  标题
- */
-@property (nonatomic, copy) NSString *navItemTitle;
-
-/**
- *  自动隐藏导航栏, 实现过度效果
- */
-@property (nonatomic, assign) BOOL autoHiddenNavigationBar;
-
-/**
  *  设置导航栏右边的item
  *
  *  @param itemTitle  <#itemTitle description#>
@@ -152,17 +177,6 @@ typedef void(^MBBaseViewControllerHandle)();
 - (void)MB_setUpNavLeftItemImage:(UIImage *)itemImage handle:(void(^)(UIImage *leftItemImage))handle;
 
 /**
- *  导航右边Item
- */
-//@property (nonatomic, strong) UIBarButtonItem *navRightItem;
-@property (nonatomic, strong) UIBarButtonItem *navRightItem;
-/**
- *  导航左边Item
- */
-//@property (nonatomic, strong) UIBarButtonItem *navLeftItem;
-@property (nonatomic, strong) UIBarButtonItem *navLeftItem;
-
-/**
  *  加载中
  */
 - (void)showLoadingAnimation;
@@ -176,15 +190,5 @@ typedef void(^MBBaseViewControllerHandle)();
  *  请求数据，子类实现
  */
 - (void)loadData;
-
-/**
- *  设置无网络占位图
- */
-@property (nonatomic, assign) BOOL isNetworkReachable;
-
-/**
- *  隐藏导航栏底部线条阴影开关
- */
-@property (nonatomic, assign) BOOL hiddenNavigationBarShadowImageView;
 
 @end

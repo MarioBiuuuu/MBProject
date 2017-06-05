@@ -107,18 +107,6 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
     
     self.navigationController.interactivePopGestureRecognizer.delaysTouchesBegan = NO;
     
-    self.navigationController.navigationBar.barTintColor = DEF_NAVIGATIONBAR_COLOR;
-    
-    self.navigationController.navigationBar.tintColor = DEF_NAVIGATIONBAR_TINTCOLOR;
-    
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:nil action:nil];
-    
-    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-    
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17],NSForegroundColorAttributeName :DEF_NAVIGATIONBAR_TINTCOLOR}];
-    
-    self.view.backgroundColor = DEF_VIEWCONTROLLER_BGCOLOR;
-    
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     self.tabBarController.tabBar.translucent = NO;
@@ -127,12 +115,51 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
     
     [NSNotificationCenter addObserver:self action:@selector(requestSuccessNotification) name:kRequestSuccessNotification];
     
-    [[UINavigationBar appearance] setBarTintColor: DEF_NAVIGATIONBAR_COLOR];
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:nil action:nil];
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17],NSForegroundColorAttributeName :[UIColor blackColor]}];
+
+    self.view.backgroundColor = [UIColor whiteColor];
+
+    [[UINavigationBar appearance] setBarTintColor: [UIColor whiteColor]];
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+}
+
+- (void)setBaseConfigure:(MBBaseConfigure *)baseConfigure {
+    if (!baseConfigure) {
+        return;
+    }
+    _baseConfigure = baseConfigure;
+    
+    self.navigationController.navigationBar.barTintColor = baseConfigure.navigationBar_barTintColor;
+    
+    self.navigationController.navigationBar.tintColor = baseConfigure.navigationBar_tintColor;
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:baseConfigure.navigationBar_backTitle style:UIBarButtonItemStyleDone target:nil action:nil];
+    
+    self.navigationController.navigationBar.barStyle = baseConfigure.navigationBar_barStyle;
+    [self.navigationController.navigationBar setTitleTextAttributes:baseConfigure.navigationBar_titleAttributes];
+    
+    self.view.backgroundColor = baseConfigure.viewBackgroundColor;
+    
+    self.hiddenNavigationBarShadowImageView = baseConfigure.hiddeNavShadowImageView;
+    
+    [[UINavigationBar appearance] setBarTintColor: baseConfigure.navigationBar_barTintColor];
+    
+    [UIApplication sharedApplication].statusBarStyle = baseConfigure.statusBarStyle;
+
 }
 
 - (void)singlePush {
@@ -141,10 +168,6 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
             return;
         }
     }
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleDefault;
 }
 
 - (void)requestSuccessNotification {
@@ -160,8 +183,13 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
     backBtn.titleLabel.font = [UIFont systemFontOfSize:16.f];
     backBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     backBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 5, 0, 0);
-    [backBtn addTarget:self action:@selector(PopGoBack) forControlEvents:UIControlEventTouchUpInside];
+    [backBtn addTarget:self action:@selector(popGotBack) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+}
+
+- (void)popGotBack {
+    if (self.navigationController == nil) return ;
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)pop {
@@ -228,10 +256,6 @@ typedef NS_ENUM(NSInteger, HHViewAction) {
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
-}
-
-- (void)PopGoBack {
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (BOOL)navigationShouldPopOnBackButton {

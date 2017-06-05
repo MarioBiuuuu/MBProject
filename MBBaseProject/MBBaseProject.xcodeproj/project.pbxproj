@@ -30,6 +30,7 @@
 		891A11C41D88025F00A2319F /* MBCommonNoNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A119C1D88025F00A2319F /* MBCommonNoNetworkingView.m */; };
 		891A121A1D88034800A2319F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891A12191D88034800A2319F /* libsqlite3.0.tbd */; };
 		8928A3C51EA4A255003E1012 /* MBDBKit_README in Resources */ = {isa = PBXBuildFile; fileRef = 8928A3C41EA4A255003E1012 /* MBDBKit_README */; };
+		892D09FF1EE5017400F76A98 /* MBBaseConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D09FE1EE5017400F76A98 /* MBBaseConfigure.m */; };
 		893E2FA21E9B7A2900439320 /* NSData+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */; };
 		893E2FA31E9B7A2900439320 /* NSDate+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F931E9B7A2900439320 /* NSDate+MBDBHandle.m */; };
 		893E2FA41E9B7A2900439320 /* NSObject+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F951E9B7A2900439320 /* NSObject+MBDBHandle.m */; };
@@ -222,6 +223,8 @@
 		891A12191D88034800A2319F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		891FF7031E6FA02200AD3FC3 /* MBTipMessageDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBTipMessageDefine.h; sourceTree = "<group>"; };
 		8928A3C41EA4A255003E1012 /* MBDBKit_README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBDBKit_README; sourceTree = "<group>"; };
+		892D09FD1EE5017400F76A98 /* MBBaseConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBaseConfigure.h; sourceTree = "<group>"; };
+		892D09FE1EE5017400F76A98 /* MBBaseConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBaseConfigure.m; sourceTree = "<group>"; };
 		893E2F901E9B7A2900439320 /* NSData+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MBDBHandle.h"; sourceTree = "<group>"; };
 		893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MBDBHandle.m"; sourceTree = "<group>"; };
 		893E2F921E9B7A2900439320 /* NSDate+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MBDBHandle.h"; sourceTree = "<group>"; };
@@ -1287,6 +1290,8 @@
 		DA724B651D76A6810049A347 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				892D09FD1EE5017400F76A98 /* MBBaseConfigure.h */,
+				892D09FE1EE5017400F76A98 /* MBBaseConfigure.m */,
 				DA724B661D76A6810049A347 /* MBBaseViewController.h */,
 				DA724B671D76A6810049A347 /* MBBaseViewController.m */,
 				85A6F4A51E654835003E10A5 /* essence */,
@@ -1748,6 +1753,7 @@
 				8988DAD71D88EF5300A54871 /* UIViewController+BackButtonHandler.m in Sources */,
 				8988DA581D88E04A00A54871 /* UIView+MJExtension.m in Sources */,
 				8988DABC1D88EBC600A54871 /* UIBarButtonItem+Addition.m in Sources */,
+				892D09FF1EE5017400F76A98 /* MBBaseConfigure.m in Sources */,
 				89CD19AB1E6552FE005E7FA0 /* MBStretchTableViewHeader.m in Sources */,
 				8988DAC01D88EBC600A54871 /* UIImage+Cut.m in Sources */,
 				8988DAB91D88EBC600A54871 /* NSString+Extension.m in Sources */,

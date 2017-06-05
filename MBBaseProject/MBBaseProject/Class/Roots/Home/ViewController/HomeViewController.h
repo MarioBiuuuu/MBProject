@@ -8,6 +8,6 @@
 
 #import "MBBaseTableViewController.h"
 
-@interface HomeViewController : MBBaseTableViewController
+@interface HomeViewController : MBBaseViewController
 
 @end
