@@ -22,7 +22,6 @@
 		852C18691E7244D7007321E2 /* YuriCreateCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C18681E7244D7007321E2 /* YuriCreateCodeImage.m */; };
 		85A6F4AA1E654835003E10A5 /* GrasshopperLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A6F4A71E654835003E10A5 /* GrasshopperLoadingView.m */; };
 		85A6F4AB1E654835003E10A5 /* SplittingTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A6F4A91E654835003E10A5 /* SplittingTriangle.m */; };
-		8913A59F1E862E250054028A /* MBCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A59E1E862E250054028A /* MBCommonTools.m */; };
 		8913A5A11E86319D0054028A /* MBBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A01E86319D0054028A /* MBBaseProjectUITests.m */; };
 		8913A5A71E86333D0054028A /* MBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A41E86333D0054028A /* MBTabBar.m */; };
 		8913A5A81E86333D0054028A /* MBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8913A5A61E86333D0054028A /* MBTabBarViewController.m */; };
@@ -31,6 +30,8 @@
 		891A121A1D88034800A2319F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 891A12191D88034800A2319F /* libsqlite3.0.tbd */; };
 		8928A3C51EA4A255003E1012 /* MBDBKit_README in Resources */ = {isa = PBXBuildFile; fileRef = 8928A3C41EA4A255003E1012 /* MBDBKit_README */; };
 		892D09FF1EE5017400F76A98 /* MBBaseConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D09FE1EE5017400F76A98 /* MBBaseConfigure.m */; };
+		892D0A021EE5280400F76A98 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D0A011EE5280400F76A98 /* NSString+Emoji.m */; };
+		892D0A051EE528BA00F76A98 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D0A041EE528BA00F76A98 /* NSString+Pinyin.m */; };
 		893E2FA21E9B7A2900439320 /* NSData+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */; };
 		893E2FA31E9B7A2900439320 /* NSDate+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F931E9B7A2900439320 /* NSDate+MBDBHandle.m */; };
 		893E2FA41E9B7A2900439320 /* NSObject+MBDBHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 893E2F951E9B7A2900439320 /* NSObject+MBDBHandle.m */; };
@@ -46,15 +47,6 @@
 		895FB39C1E6FE4FD0021672E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB39B1E6FE4FD0021672E /* AdSupport.framework */; };
 		895FB39E1E6FE5060021672E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB39D1E6FE5060021672E /* UserNotifications.framework */; };
 		895FB3A01E6FE50E0021672E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 895FB39F1E6FE50E0021672E /* libresolv.tbd */; };
-		89788EF91D912DBF00EEC433 /* SRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788EF81D912DBF00EEC433 /* SRActionSheet.m */; };
-		89788F051D9130F600EEC433 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788EFD1D9130F600EEC433 /* FAImageView.m */; };
-		89788F061D9130F600EEC433 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89788EFE1D9130F600EEC433 /* FontAwesome.ttf */; };
-		89788F071D9130F600EEC433 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788F001D9130F600EEC433 /* NSString+FontAwesome.m */; };
-		89788F081D9130F600EEC433 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788F021D9130F600EEC433 /* UIFont+FontAwesome.m */; };
-		89788F091D9130F600EEC433 /* MozTopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788F041D9130F600EEC433 /* MozTopAlertView.m */; };
-		89788F0F1D91319900EEC433 /* exclamation-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89788F0B1D91319900EEC433 /* exclamation-icon.png */; };
-		89788F101D91319900EEC433 /* FDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89788F0D1D91319900EEC433 /* FDAlertView.m */; };
-		89788F111D91319900EEC433 /* star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89788F0E1D91319900EEC433 /* star-icon.png */; };
 		8988DA071D88DFE700A54871 /* IncidentalDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8988D9EF1D88DFE700A54871 /* IncidentalDataModel.m */; };
 		8988DA081D88DFE700A54871 /* MBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8988D9F11D88DFE700A54871 /* MBBaseModel.m */; };
 		8988DA091D88DFE700A54871 /* MBBaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8988D9F51D88DFE700A54871 /* MBBaseTableHeaderFooterView.m */; };
@@ -209,8 +201,6 @@
 		85A6F4A81E654835003E10A5 /* SplittingTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplittingTriangle.h; sourceTree = "<group>"; };
 		85A6F4A91E654835003E10A5 /* SplittingTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplittingTriangle.m; sourceTree = "<group>"; };
 		85F030FBDB595FC667BC526B /* libPods-LKProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8913A59D1E862E250054028A /* MBCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCommonTools.h; sourceTree = "<group>"; };
-		8913A59E1E862E250054028A /* MBCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCommonTools.m; sourceTree = "<group>"; };
 		8913A5A01E86319D0054028A /* MBBaseProjectUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBaseProjectUITests.m; sourceTree = "<group>"; };
 		8913A5A31E86333D0054028A /* MBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBar.h; sourceTree = "<group>"; };
 		8913A5A41E86333D0054028A /* MBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBar.m; sourceTree = "<group>"; };
@@ -225,6 +215,10 @@
 		8928A3C41EA4A255003E1012 /* MBDBKit_README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBDBKit_README; sourceTree = "<group>"; };
 		892D09FD1EE5017400F76A98 /* MBBaseConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBaseConfigure.h; sourceTree = "<group>"; };
 		892D09FE1EE5017400F76A98 /* MBBaseConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBaseConfigure.m; sourceTree = "<group>"; };
+		892D0A001EE5280400F76A98 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		892D0A011EE5280400F76A98 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		892D0A031EE528BA00F76A98 /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		892D0A041EE528BA00F76A98 /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 		893E2F901E9B7A2900439320 /* NSData+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MBDBHandle.h"; sourceTree = "<group>"; };
 		893E2F911E9B7A2900439320 /* NSData+MBDBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MBDBHandle.m"; sourceTree = "<group>"; };
 		893E2F921E9B7A2900439320 /* NSDate+MBDBHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MBDBHandle.h"; sourceTree = "<group>"; };
@@ -251,21 +245,6 @@
 		895FB39B1E6FE4FD0021672E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		895FB39D1E6FE5060021672E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		895FB39F1E6FE50E0021672E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		89788EF71D912DBF00EEC433 /* SRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionSheet.h; sourceTree = "<group>"; };
-		89788EF81D912DBF00EEC433 /* SRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionSheet.m; sourceTree = "<group>"; };
-		89788EFC1D9130F600EEC433 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
-		89788EFD1D9130F600EEC433 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
-		89788EFE1D9130F600EEC433 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		89788EFF1D9130F600EEC433 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
-		89788F001D9130F600EEC433 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
-		89788F011D9130F600EEC433 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
-		89788F021D9130F600EEC433 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
-		89788F031D9130F600EEC433 /* MozTopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MozTopAlertView.h; sourceTree = "<group>"; };
-		89788F041D9130F600EEC433 /* MozTopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MozTopAlertView.m; sourceTree = "<group>"; };
-		89788F0B1D91319900EEC433 /* exclamation-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation-icon.png"; sourceTree = "<group>"; };
-		89788F0C1D91319900EEC433 /* FDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlertView.h; sourceTree = "<group>"; };
-		89788F0D1D91319900EEC433 /* FDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlertView.m; sourceTree = "<group>"; };
-		89788F0E1D91319900EEC433 /* star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon.png"; sourceTree = "<group>"; };
 		8988D9EE1D88DFE700A54871 /* IncidentalDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncidentalDataModel.h; sourceTree = "<group>"; };
 		8988D9EF1D88DFE700A54871 /* IncidentalDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentalDataModel.m; sourceTree = "<group>"; };
 		8988D9F01D88DFE700A54871 /* MBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBaseModel.h; sourceTree = "<group>"; };
@@ -611,15 +590,6 @@
 			path = essence;
 			sourceTree = "<group>";
 		};
-		8913A59C1E862DA60054028A /* MBCommonTool */ = {
-			isa = PBXGroup;
-			children = (
-				8913A59D1E862E250054028A /* MBCommonTools.h */,
-				8913A59E1E862E250054028A /* MBCommonTools.m */,
-			);
-			path = MBCommonTool;
-			sourceTree = "<group>";
-		};
 		8913A5A21E86333D0054028A /* MBTabBarViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -725,50 +695,6 @@
 				893E2FB01E9B7C8F00439320 /* MBWaterFlowLayout.m */,
 			);
 			path = BaseCollectionView;
-			sourceTree = "<group>";
-		};
-		89788EF61D912DBF00EEC433 /* SRActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				89788EF71D912DBF00EEC433 /* SRActionSheet.h */,
-				89788EF81D912DBF00EEC433 /* SRActionSheet.m */,
-			);
-			path = SRActionSheet;
-			sourceTree = "<group>";
-		};
-		89788EFA1D9130F600EEC433 /* TopAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				89788EFB1D9130F600EEC433 /* fontawesome */,
-				89788F031D9130F600EEC433 /* MozTopAlertView.h */,
-				89788F041D9130F600EEC433 /* MozTopAlertView.m */,
-			);
-			path = TopAlertView;
-			sourceTree = "<group>";
-		};
-		89788EFB1D9130F600EEC433 /* fontawesome */ = {
-			isa = PBXGroup;
-			children = (
-				89788EFC1D9130F600EEC433 /* FAImageView.h */,
-				89788EFD1D9130F600EEC433 /* FAImageView.m */,
-				89788EFE1D9130F600EEC433 /* FontAwesome.ttf */,
-				89788EFF1D9130F600EEC433 /* NSString+FontAwesome.h */,
-				89788F001D9130F600EEC433 /* NSString+FontAwesome.m */,
-				89788F011D9130F600EEC433 /* UIFont+FontAwesome.h */,
-				89788F021D9130F600EEC433 /* UIFont+FontAwesome.m */,
-			);
-			path = fontawesome;
-			sourceTree = "<group>";
-		};
-		89788F0A1D91319900EEC433 /* FDAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				89788F0E1D91319900EEC433 /* star-icon.png */,
-				89788F0B1D91319900EEC433 /* exclamation-icon.png */,
-				89788F0C1D91319900EEC433 /* FDAlertView.h */,
-				89788F0D1D91319900EEC433 /* FDAlertView.m */,
-			);
-			path = FDAlertView;
 			sourceTree = "<group>";
 		};
 		8988D9ED1D88DFE700A54871 /* BaseModel */ = {
@@ -1022,6 +948,10 @@
 				8988DA821D88EBC600A54871 /* NSString+URL.m */,
 				A9AAAA421E7123E200B6F274 /* NSString+Cutout.h */,
 				A9AAAA431E7123E200B6F274 /* NSString+Cutout.m */,
+				892D0A001EE5280400F76A98 /* NSString+Emoji.h */,
+				892D0A011EE5280400F76A98 /* NSString+Emoji.m */,
+				892D0A031EE528BA00F76A98 /* NSString+Pinyin.h */,
+				892D0A041EE528BA00F76A98 /* NSString+Pinyin.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -1313,9 +1243,6 @@
 			isa = PBXGroup;
 			children = (
 				19AE83271E7FF2A900BFD2A6 /* UITextField */,
-				89788F0A1D91319900EEC433 /* FDAlertView */,
-				89788EFA1D9130F600EEC433 /* TopAlertView */,
-				89788EF61D912DBF00EEC433 /* SRActionSheet */,
 				8988DAD81D88F4F600A54871 /* UITextView */,
 			);
 			path = UI;
@@ -1324,7 +1251,6 @@
 		DA724B761D76A6810049A347 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				8913A59C1E862DA60054028A /* MBCommonTool */,
 				31BD50001E5FC6AE00D81A4F /* APIUtil */,
 			);
 			path = Util;
@@ -1583,9 +1509,7 @@
 				851401781E725C3500E2439A /* scanBox@2x.png in Resources */,
 				D0A3B6891E77EB6700087BD7 /* refreshjoke_loading_4@2x.png in Resources */,
 				D0A3B6881E77EB6700087BD7 /* refreshjoke_loading_3@3x.png in Resources */,
-				89788F0F1D91319900EEC433 /* exclamation-icon.png in Resources */,
 				D0A3B68C1E77EB6700087BD7 /* refreshjoke_loading_5@3x.png in Resources */,
-				89788F111D91319900EEC433 /* star-icon.png in Resources */,
 				D0A3B68A1E77EB6700087BD7 /* refreshjoke_loading_4@3x.png in Resources */,
 				8514017B1E725C3500E2439A /* scanLine@2x.png in Resources */,
 				D0A3B6851E77EB6700087BD7 /* refreshjoke_loading_2@2x.png in Resources */,
@@ -1596,7 +1520,6 @@
 				DAD5715A1D73CFC00066CE23 /* Assets.xcassets in Resources */,
 				D0A3B6871E77EB6700087BD7 /* refreshjoke_loading_3@2x.png in Resources */,
 				DAD571581D73CFC00066CE23 /* Main.storyboard in Resources */,
-				89788F061D9130F600EEC433 /* FontAwesome.ttf in Resources */,
 				8988DA101D88DFE700A54871 /* refresh@3x.png in Resources */,
 				8988DA531D88E04A00A54871 /* MJRefresh.bundle in Resources */,
 			);
@@ -1685,8 +1608,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				852C18691E7244D7007321E2 /* YuriCreateCodeImage.m in Sources */,
-				89788F071D9130F600EEC433 /* NSString+FontAwesome.m in Sources */,
 				8988DA551D88E04A00A54871 /* NSBundle+MJRefresh.m in Sources */,
+				892D0A021EE5280400F76A98 /* NSString+Emoji.m in Sources */,
 				8988DAD41D88EF1200A54871 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				8988DA561D88E04A00A54871 /* UIScrollView+MJExtension.m in Sources */,
 				8514016C1E72590800E2439A /* YuriAlertView.m in Sources */,
@@ -1701,11 +1624,11 @@
 				8988DA541D88E04A00A54871 /* MJRefreshConst.m in Sources */,
 				8988DAAE1D88EBC600A54871 /* NSDate+Addition.m in Sources */,
 				8988DAB11D88EBC600A54871 /* NSObject+AddProperty.m in Sources */,
-				89788F101D91319900EEC433 /* FDAlertView.m in Sources */,
 				8988DA071D88DFE700A54871 /* IncidentalDataModel.m in Sources */,
 				8988DA4F1D88E04A00A54871 /* MJRefreshBackStateFooter.m in Sources */,
 				8988DA521D88E04A00A54871 /* MJRefreshStateHeader.m in Sources */,
 				8988DAB81D88EBC600A54871 /* NSString+Encrypt.m in Sources */,
+				892D0A051EE528BA00F76A98 /* NSString+Pinyin.m in Sources */,
 				85A6F4AA1E654835003E10A5 /* GrasshopperLoadingView.m in Sources */,
 				893E2FA21E9B7A2900439320 /* NSData+MBDBHandle.m in Sources */,
 				8988DAC91D88EBC600A54871 /* UIView+Layer.m in Sources */,
@@ -1727,18 +1650,15 @@
 				8988DAAC1D88EBC600A54871 /* NSNotificationCenter+Addition.m in Sources */,
 				893E2FAE1E9B7BEC00439320 /* MBCollectionViewFlowLayout.m in Sources */,
 				89CEAFB51E6675EF00575C03 /* UITextView+Placeholder.m in Sources */,
-				89788F051D9130F600EEC433 /* FAImageView.m in Sources */,
 				8988DAAF1D88EBC600A54871 /* NSDictionary+Addition.m in Sources */,
 				312EC3CB1E6697B3002C6808 /* NSString+LKEncry.m in Sources */,
 				8988DAC21D88EBC600A54871 /* UIImageView+Addition.m in Sources */,
-				89788EF91D912DBF00EEC433 /* SRActionSheet.m in Sources */,
 				89CD19AF1E6576FB005E7FA0 /* AppDelegate.m in Sources */,
 				8988DA4B1D88E04A00A54871 /* MJRefreshAutoNormalFooter.m in Sources */,
 				89CD52FF1E7668A70008A86A /* CKAlertViewController.m in Sources */,
 				89EAF4F41E811AFF008E42D3 /* UIButton+CenterImageAndTitle.m in Sources */,
 				D079E6091E8397AB002637A4 /* UILabel+Vertical.m in Sources */,
 				8988DAB21D88EBC600A54871 /* NSObject+AppInfo.m in Sources */,
-				89788F091D9130F600EEC433 /* MozTopAlertView.m in Sources */,
 				19AE832A1E7FF2B500BFD2A6 /* UnUseMenuControlTextField.m in Sources */,
 				8988DAB71D88EBC600A54871 /* NSString+Addition.m in Sources */,
 				893E2FA41E9B7A2900439320 /* NSObject+MBDBHandle.m in Sources */,
@@ -1757,7 +1677,6 @@
 				89CD19AB1E6552FE005E7FA0 /* MBStretchTableViewHeader.m in Sources */,
 				8988DAC01D88EBC600A54871 /* UIImage+Cut.m in Sources */,
 				8988DAB91D88EBC600A54871 /* NSString+Extension.m in Sources */,
-				8913A59F1E862E250054028A /* MBCommonTools.m in Sources */,
 				893E2FA31E9B7A2900439320 /* NSDate+MBDBHandle.m in Sources */,
 				8988DA441D88E04A00A54871 /* UIScrollView+EmptyDataSet.m in Sources */,
 				852C18661E7244B8007321E2 /* YuriCodeScanView.m in Sources */,
@@ -1783,7 +1702,6 @@
 				DA724B7E1D76A6810049A347 /* MBBaseViewController.m in Sources */,
 				DAD5714F1D73CFC00066CE23 /* main.m in Sources */,
 				8991ABA81E669FAF00F31363 /* ViewIBDesignableExtison.swift in Sources */,
-				89788F081D9130F600EEC433 /* UIFont+FontAwesome.m in Sources */,
 				893E2FB11E9B7C8F00439320 /* MBWaterFlowLayout.m in Sources */,
 				8988DADB1D88F51200A54871 /* LKCustomPlaceHolderTextView.m in Sources */,
 				8988DAB01D88EBC600A54871 /* NSFileManager+Paths.m in Sources */,

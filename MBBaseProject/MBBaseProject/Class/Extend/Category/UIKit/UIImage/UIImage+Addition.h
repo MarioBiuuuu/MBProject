@@ -36,7 +36,15 @@
 + (UIImage *)resizableImageWithImageName:(NSString *)imageName;
 
 
-
+/**
+ *  获取视频第一帧截图
+ *
+ *  @param videoURL 视频url
+ *  @param time 时间
+ *
+ *  @return 截图
+ */
++ (UIImage *)thumbnailImageForVideo:(NSURL *)videoURL atTime:(NSTimeInterval)time;
 
 
 /** 压缩图片到指定的物理大小*/
